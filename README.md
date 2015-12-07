@@ -1,6 +1,6 @@
-# Blockr::Ruby
+# Blockr
 
-TODO: Write a gem description
+Ruby SDK for Blockr.io
 
 ## Installation
 
