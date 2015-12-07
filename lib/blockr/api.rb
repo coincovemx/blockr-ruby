@@ -1,5 +1,5 @@
 module Blockr
-  class Client
+  class API
 
     attr_reader :network,
                 :api_version
