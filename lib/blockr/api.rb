@@ -11,7 +11,7 @@ module Blockr
     end
 
     def url
-      @url ||= "http://#{network}.blockr.io/api/#{api_version}"
+      "http://#{network}.blockr.io/api/#{api_version}"
     end
 
     def network=(network)
