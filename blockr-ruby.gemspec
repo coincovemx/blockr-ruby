@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Blockr::VERSION
   spec.authors       = ['Genaro Madrid']
   spec.email         = ['genmadrid@gmail.com']
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Ruby SDK for Blockr.io}
+  spec.description   = %q{Ruby SDK for Blockr.io}
   spec.homepage      = ''
   spec.license       = 'MIT'
 
