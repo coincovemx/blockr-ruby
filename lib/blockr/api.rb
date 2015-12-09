@@ -31,6 +31,10 @@ module Blockr
       @connection.get("/tx/info/#{hash}")
     end
 
+    def raw_transaction(hash)
+      @connection.get("/tx/raw/#{hash}")
+    end
+
     def decode_transaction(hex)
       @connection.post('/tx/decode', hex: hex)
     end
