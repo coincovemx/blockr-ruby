@@ -27,6 +27,10 @@ module Blockr
       @connection.get("/block/info/last")
     end
 
+    def latest_block_raw
+      @connection.get("/block/raw/last")
+    end
+
     def transaction(hash)
       @connection.get("/tx/info/#{hash}")
     end
