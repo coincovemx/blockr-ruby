@@ -2,6 +2,8 @@
 
 Ruby SDK for Blockr.io
 
+[![Gem Version](gem-version-image)](gem-version-url)
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -61,3 +63,6 @@ To bump the version you can use the `./bump` python script, just write it in the
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+ 
+[gem-version-image]: https://badge.fury.io/rb/blockr-ruby.svg
+[gem-version-url]: https://badge.fury.io/rb/blockr-ruby
