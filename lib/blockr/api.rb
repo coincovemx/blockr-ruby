@@ -23,12 +23,16 @@ module Blockr
       @connection.get("/block/info/#{hash}")
     end
 
+    def block_raw(hash)
+      @connection.get("/block/raw/#{hash}")
+    end
+
     def latest_block
-      @connection.get("/block/info/last")
+      block('last')
     end
 
     def latest_block_raw
-      @connection.get("/block/raw/last")
+      block_raw('last')
     end
 
     def transaction(hash)
