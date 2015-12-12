@@ -2,7 +2,7 @@
 
 Ruby SDK for Blockr.io
 
-[![Gem Version][gem-version-image][gem-version-url]
+[![Gem Version][gem-version-image]][gem-version-url]
 
 ## Installation
 
