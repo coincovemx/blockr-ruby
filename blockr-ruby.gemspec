@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['genmadrid@gmail.com']
   spec.summary       = %q{Ruby SDK for Blockr.io}
   spec.description   = %q{Ruby SDK for Blockr.io API}
-  spec.homepage      = 'https://github.com/genaromadrid/blockr-ruby'
+  spec.homepage      = 'https://github.com/coincovemx/blockr-ruby'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
