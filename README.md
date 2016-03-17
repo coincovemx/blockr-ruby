@@ -36,6 +36,12 @@ You can also change the Blockchain using:
     blockr_api.network = 'tbtc'
   ```
 
+Or if you're using Blockr gem withut an instance you can do:
+
+  ```ruby
+    Blockr.network = 'tbtc'
+  ```
+
 ### Posible Methods
 
 You can use any of these methods with the initialized object or simply by calling:
